@@ -5,7 +5,7 @@
   <property name="panels" type="array">
     <value type="int" value="1"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=0;x=1270;y=1262"/>
+      <property name="position" type="string" value="p=0;x=1276;y=1301"/>
       <property name="length" type="double" value="82.547169811320757"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="40"/>
@@ -15,10 +15,10 @@
         <value type="int" value="10"/>
         <value type="int" value="9"/>
         <value type="int" value="2"/>
+        <value type="int" value="16"/>
         <value type="int" value="4"/>
-        <value type="int" value="5"/>
-        <value type="int" value="6"/>
-        <value type="int" value="7"/>
+        <value type="int" value="13"/>
+        <value type="int" value="17"/>
         <value type="int" value="8"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
@@ -47,14 +47,16 @@
     <property name="plugin-1" type="string" value="whiskermenu">
       <property name="button-icon" type="string" value="overflow-menu"/>
       <property name="recent" type="array">
+        <value type="string" value="xfce-wm-settings.desktop"/>
+        <value type="string" value="xfce-keyboard-settings.desktop"/>
+        <value type="string" value="xfce4-mime-settings.desktop"/>
+        <value type="string" value="kali-tweaks.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
         <value type="string" value="xfce-ui-settings.desktop"/>
-        <value type="string" value="Alacritty.desktop"/>
         <value type="string" value="time.desktop"/>
         <value type="string" value="kali-burpsuite.desktop"/>
-        <value type="string" value="kitty.desktop"/>
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
         <value type="string" value="xfce-wmtweaks-settings.desktop"/>
-        <value type="string" value="xfce-wm-settings.desktop"/>
       </property>
       <property name="profile-shape" type="int" value="2"/>
       <property name="show-button-icon" type="bool" value="false"/>
@@ -65,27 +67,6 @@
     <property name="plugin-2" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="false"/>
-    </property>
-    <property name="plugin-4" type="string" value="directorymenu">
-      <property name="icon-name" type="string" value="system-file-manager"/>
-      <property name="base-directory" type="string" value="/home/kali"/>
-    </property>
-    <property name="plugin-5" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="17256562111.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-6" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="17256562112.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-7" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="17256562113.desktop"/>
-        <value type="string" value="17256562114.desktop"/>
-      </property>
-      <property name="move-first" type="bool" value="true"/>
     </property>
     <property name="plugin-8" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -176,6 +157,95 @@
     <property name="plugin-10" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="plugin-13" type="string" value="launcher">
+      <property name="per-core" type="int" value="0"/>
+      <property name="tracked-core" type="int" value="0"/>
+      <property name="in-terminal" type="int" value="1"/>
+      <property name="startup-notification" type="int" value="0"/>
+      <property name="load-threshold" type="int" value="0"/>
+      <property name="smt-stats" type="int" value="0"/>
+      <property name="smt-issues" type="int" value="0"/>
+      <property name="per-core-spacing" type="int" value="1"/>
+      <property name="command" type="string" value=""/>
+      <property name="background" type="array">
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+        <value type="double" value="0"/>
+      </property>
+      <property name="foreground-1" type="array">
+        <value type="double" value="0.15294117647058825"/>
+        <value type="double" value="0.46666666666666656"/>
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-2" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+        <value type="double" value="0.8784313725490196"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-3" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="bars-color" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+        <value type="double" value="0.8784313725490196"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="smt-issues-color" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-system" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-user" type="array">
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="0.40000000000000002"/>
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-nice" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.80000000000000004"/>
+        <value type="double" value="0.20000000000000001"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-iowait" type="array">
+        <value type="double" value="0.20000000000000001"/>
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.40000000000000002"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="items" type="array">
+        <value type="string" value="17257902242.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-4" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17257902151.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17257902624.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17257909355.desktop"/>
+      </property>
     </property>
   </property>
 </channel>
